@@ -34,4 +34,16 @@
 		app:layout_constraintLeft_toLeftOf="@+id/txv"
 		android:layout_marginRight="8dp"
 		app:layout_constraintRight_toRightOf="@+id/txv"/>
+
+	<Button
+		android:id="@+id/btn2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="81dp"
+		android:text="Button"
+		app:layout_constraintLeft_toLeftOf="@+id/txv"
+		app:layout_constraintRight_toRightOf="@+id/txv"
+		app:layout_constraintTop_toBottomOf="@+id/txv"/>
 </android.support.constraint.ConstraintLayout>
